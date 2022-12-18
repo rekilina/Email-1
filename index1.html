@@ -41,13 +41,11 @@
             color: #FFFFFF;
         }
 
-        @media screen and (max-width: 1365.98px) {}
-
-        @media screen and (max-width: 899.98px) {}
-
-        @media screen and (max-width: 659.98px) {}
-
-        @media screen and (max-width: 399.98px) {}
+        @media only screen and (max-device-width: 500px) {
+            table[class=contenttable] {
+                width: 320px !important;
+            }
+        }
     </style>
     <!--[if (gte mso 9)|(IE)]>
         <style type="text/css">
@@ -74,14 +72,13 @@
 
     <!-- <center style="width:100%;table-layout:fixed;background-color:#000000;padding-top:195px;padding-bottom:190px;padding-left:48px;padding-right:48px;"> -->
 
-    <div style="max-width:660px; background-color:#000000;">
+    <div style="max-width:660px; background-color:#000000; text-align: center;">
         <!-- Preheader (remove comment) -->
         <div
             style="font-size: 0px;color:#000000;line-height: 1px;mso-line-height-rule:exactly; display:none;max-width: 0px; opacity:0;overflow: hidden;mso-hide:all;">
             FORTUNE2050 Оплата прошла успешно
         </div>
         <!-- Preheader (remove comment) -->
-
         <!--[if (gte mso 9)|(IE)]>
                 <table width="612" align="center" border="0" cellpadding="0" role="presentation" style="color: #FFFFFF;"
                 <tr>
@@ -90,58 +87,75 @@
         <table align="left" border="0" cellspacing="0" cellpadding="0" role="presentation" width="100%"
             bgcolor="#000000" style="color:#FFFFFF;">
             <tr>
-                <td>
-                    <table align="left" border="0" cellspacing="0" cellpadding="0" role="presentation" width="100%"
-                        bgcolor="#000000" background="Vector14.png" style="width:100%;color:#FFFFFF;background-image: url(Vector14.png);background-position: 25% -5%;background-size: 240%;background-repeat: no-repeat;background-clip: border-box;">
-                        <tr>
-                            <td>
-                                <table align="left" border="0" cellspacing="0" cellpadding="0" role="presentation">
-                                    <tr>
-                                        <td style="padding:195px 0 0 48px;text-align: left;">
-                                            <a href="#" target="_blank">
-                                                <img src="Logo.png" alt="Logo" border="0" style="width:226px;">
-                                            </a>
-                                        </td>
-                                        <td style="padding:82px 0 0 95px;text-align: left;">
-                                            <img src="crystall.png" alt="Logo" border="0" style="width:135px;">
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <table align="left" border="0" cellspacing="0" cellpadding="0" role="presentation">
-                                    <tr>
-                                        <td
-                                            style="padding:50px 0 0 48px;text-align: left; color: #FFFFFF;font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;font-weight:700;font-size:92px;line-height:1;text-transform:uppercase;">
-                                            <p style="margin:0;padding:0;">ОПЛАТА ПРОШЛА УСПЕШНО</p>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <table align="left" border="0" cellspacing="0" cellpadding="0" role="presentation" width="621" background="Stroke.png" style="max-width:621px;height:300px; background-image:url(Stroke.png);background-position: 0% 0%;background-size: 100%;background-repeat: no-repeat;background-clip: border-box;" valign="top">
-                                    <tr>
-                                        <td>
-                                            <table border="0" cellspacing="0" cellpadding="0" role="presentation" width="100%" align="center" valign="top">
-                                                <tr>
-                                                    <td style="width:100%;height:100%;color:#FFFFFF;font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;font-weight:400;font-size:24px;padding: 0 98px 0 98px;">
-                                                        <p style="margin:0;padding:0;">Благодарим за покупку билета на международный саммит «Силы Сообществ» FORTUNE 2050!</p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
+                <table align="left" border="0" cellspacing="0" cellpadding="0" role="presentation" width="100%"
+                    bgcolor="#000000" background="Vector14.png"
+                    style="width:100%;color:#FFFFFF;background-image: url(Vector14.png);background-position: 25% -5%;background-size: 240%;background-repeat: no-repeat;background-clip: border-box;">
+                    <tr>
+                        <td width="100%" style="width: 100%;display: inline-block;">
+                            <table align="left" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                                <tr>
+                                    <td style="padding:195px 0 0 48px;text-align: left;">
+                                        <a href="#" target="_blank">
+                                            <img src="Logo.png" alt="Logo" border="0" style="width:226px;">
+                                        </a>
+                                    </td>
+                                    <td style="padding:82px 0 0 95px;text-align: left;">
+                                        <img src="crystall.png" alt="Logo" border="0" style="width:135px;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table align="left" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                                <tr>
+                                    <td
+                                        style="padding:50px 0 0 48px;text-align: left; color: #FFFFFF;font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;font-weight:700;font-size:92px;line-height:1;text-transform:uppercase;">
+                                        <p style="margin:0;padding:0;">ОПЛАТА ПРОШЛА УСПЕШНО</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table align="left" border="0" cellspacing="0" cellpadding="0" role="presentation"
+                                width="100%" background="Stroke.png"
+                                style="max-width:621px;height:300px; background-image:url(Stroke.png);background-position: center center;background-size: 100%;background-repeat: no-repeat;background-clip: border-box;"
+                                valign="center">
+                                <tr>
+                                    <td valign="center" style="vertical-align:center;">
+                                        <table border="0" cellspacing="0" cellpadding="0" role="presentation"
+                                            width="100%" align="center" valign="top">
+                                            <tr>
+                                                <td
+                                                    style="width:100%;height:100%;color:#FFFFFF;font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;font-weight:400;font-size:24px;padding: 0 98px 0 98px;">
+                                                    <p style="margin:0;padding:0;">Благодарим за покупку билета на
+                                                        международный саммит «Силы Сообществ» FORTUNE 2050!</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td
+                            style="vertical-align: top;padding:0 46px 0 49px;width:100%;color:#FFFFFF;font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;font-weight:400;font-size:24px;line-height: 1.42;">
+                            <p style="margin:0;padding:0;">Уже 4 февраля 2023 года пройдет закрытая презентация первого
+                                в
+                                мире социального блокчейн-проекта, программы «FORTUNE 2050» и игры X10 GAME. Также вас
+                                ждут
+                                выступления лидеров рынка и концерт Игоря Рыбакова в сопровождении симфонического
+                                оркестра.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td>
                     <table align="left" valign="top" border="0" bgcolor="#000000" cellspacing="0" cellpadding="0" role="presentation" width="100%">
                         <tr>
@@ -151,13 +165,17 @@
                         </tr>
                     </table>
                 </td>
-            </tr>
+            </tr> -->
             <tr>
                 <td>
-                    <table align="center" valign="top" border="0" bgcolor="#000000" cellspacing="0" cellpadding="0" role="presentation" width="100%" background="photo2.png" height="925" style="width:100%;height:925px; background-image:url(photo2.png);background-position: right 9% top 35px;background-size: auto 98%;background-repeat: no-repeat;background-clip: border-box;">
+                    <table align="center" valign="top" border="0" bgcolor="#000000" cellspacing="0" cellpadding="0"
+                        role="presentation" width="100%" background="photo2.png" height="925"
+                        style="width:100%;height:925px; background-image:url(photo2.png);background-position: left -1055px top 42px;background-size: auto 98%;background-repeat: no-repeat;background-clip: border-box;">
                         <tr>
                             <td style="vertical-align: top;">
-                                <table align="right" valign="top" border="0" cellspacing="0" cellpadding="0" role="presentation" width="100%" background="sphere.png" height="475" style="width:100%;height:475px; background-image:url(sphere.png);background-position: right -188% top 25px;background-size: auto 100%;background-repeat: no-repeat;background-clip: border-box;">
+                                <table align="right" valign="top" border="0" cellspacing="0" cellpadding="0"
+                                    role="presentation" width="100%" background="sphere.png" height="475"
+                                    style="width:100%;height:475px; background-image:url(sphere.png);background-position: right -357px top 25px;background-size: auto 100%;background-repeat: no-repeat;background-clip: border-box;">
                                     <tr>
                                         <td></td>
                                     </tr>
@@ -166,7 +184,8 @@
                         </tr>
                         <tr>
                             <td style="vertical-align: top;">
-                                <table align="right" valign="top" border="0" cellspacing="0" cellpadding="0" role="presentation" width="100%" height="200" style="width:100%;height:200px;">
+                                <table align="right" valign="top" border="0" cellspacing="0" cellpadding="0"
+                                    role="presentation" width="100%" height="200" style="width:100%;height:200px;">
                                     <tr>
                                         <td></td>
                                     </tr>
@@ -175,7 +194,9 @@
                         </tr>
                         <tr>
                             <td style="vertical-align: top;">
-                                <table align="right" valign="top" border="0" cellspacing="0" cellpadding="0" role="presentation" width="100%" background="bagel.png" height="475" style="width:100%;height:290px; background-image:url(bagel.png);background-position: left -31% top 0;background-size: auto 100%;background-repeat: no-repeat;background-clip: border-box;">
+                                <table align="right" valign="top" border="0" cellspacing="0" cellpadding="0"
+                                    role="presentation" width="100%" background="bagel.png" height="475"
+                                    style="width:100%;height:290px; background-image:url(bagel.png);background-position: left -110px top 0;background-size: auto 100%;background-repeat: no-repeat;background-clip: border-box;">
                                     <tr>
                                         <td></td>
                                     </tr>
@@ -187,12 +208,45 @@
             </tr>
             <tr>
                 <td style="vertical-align: top;">
-                    <table align="left" valign="top" border="0" bgcolor="#000000" cellspacing="0" cellpadding="0" role="presentation" width="90%">
+                    <table align="left" valign="top" border="0" bgcolor="#000000" cellspacing="0" cellpadding="0"
+                        role="presentation" width="90%">
                         <tr>
-                            <td style="width:100%;vertical-align: top;padding:56px 0 63px 49px;width:100%;color:#FFFFFF;font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;font-weight:400;font-size:24px;line-height: 1.42;">
+                            <td
+                                style="width:100%;vertical-align: top;padding:56px 0 63px 49px;width:100%;color:#FFFFFF;font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;font-weight:400;font-size:24px;line-height: 1.42;">
                                 <p style="margin:0;padding:0;width:100%">
-                                    Вступайте в закрытый чат участников мероприятия в Telegram, чтобы не пропустить важные новости
+                                    Вступайте в закрытый чат участников мероприятия в Telegram, чтобы не пропустить
+                                    важные
+                                    новости
                                 </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;align:left;" align="left">
+                    <table align="left" valign="top" border="0" bgcolor="#000000" cellspacing="0"
+                    cellpadding="0" role="presentation" width="100%">
+                        <tr>
+                            <td style="padding:0 10px 0 49px;" >
+                                <table align="left" valign="top" border="0" bgcolor="#000000" cellspacing="0"
+                                    cellpadding="0" role="presentation" width="100%" background="Button.png"
+                                    style="width:100%;height:142px; max-width:563px; background-image:url(Button.png);background-position: center center;background-size: 100%;background-repeat: no-repeat;background-clip: border-box;">
+                                    <tr>
+                                        <td style="font-family: 'Open Sans';
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        font-size: 40px;
+                                        line-height: 54px;
+                                        text-align: center;
+                                        
+                                        color: #FFFFFF;">
+                                            <p style="margin:0;padding:0;width:100%">
+                                                Присоединиться
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
                         </tr>
                     </table>
@@ -206,7 +260,6 @@
             </table>
             <![endif]-->
     </div>
-
 
     <!-- </center> -->
 
